@@ -21,10 +21,14 @@ Each product has it's own set of photos. There's photos that are visible to the 
 
 # Products view
 ## Sorting
+### Visitor
 Products should be sorted by either `name`, `price` or `date`.
 
-### Default sort field
+#### Default sort field
 The default field to sort by should be `date`.
 
-### Sort order
+#### Sort order
 Sort order should be this: `date`, `price`, `name`.
+
+### Admin
+Products should be sorted by `date`. 
