@@ -28,7 +28,10 @@ Products should be sorted by either `name`, `price` or `date`.
 The default field to sort by should be `date`.
 
 #### Sort order
-Sort order should be this: `date`, `price`, `name`.
+Sort order should be this: 
+1. `date`: *descending* 
+2. `price`: *ascending*
+3. `name`: *ascending*
 
 ### Admin
 Products should be sorted by `date`. 
