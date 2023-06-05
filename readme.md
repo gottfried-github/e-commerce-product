@@ -41,5 +41,7 @@ Sort order should be this:
 2. `price`: *ascending*
 3. `name`: *ascending*
 
+When one of the above characteristics is chosen to sort by first, the other charactertistics should preserve their relative order. E.g., if sorted by `price`, the sort order should be: `price`, `date`, `name`; if sorted by `name`, the sort order should be: `name`, `date`, `price`.
+
 ### Admin
 Products should be sorted by `date`. 
