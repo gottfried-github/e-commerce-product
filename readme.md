@@ -45,3 +45,6 @@ When one of the above characteristics is chosen to sort by first, the other char
 
 ### Admin
 Products should be sorted by `date`. 
+
+# Mobile menu view
+The contents of the menu should be centered, as in graphical design. But if the contents exceeds the viewport height, it should be scrollable.
