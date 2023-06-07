@@ -41,5 +41,14 @@ Sort order should be this:
 2. `price`: *ascending*
 3. `name`: *ascending*
 
+When one of the above characteristics is chosen to sort by first, the other charactertistics should preserve their relative order. E.g., if sorted by `price`, the sort order should be: `price`, `date`, `name`; if sorted by `name`, the sort order should be: `name`, `date`, `price`.
+
 ### Admin
 Products should be sorted by `date`. 
+
+# UI design
+## Mobile menu view
+The contents of the menu should be centered, as in graphical design. But if the contents exceeds the viewport height, it should be scrollable.
+
+## Header and footer width difference on different pages
+For example, on the page where products are displayed, the max width of the header and the footer should be larger, to corelate with the max width of the products view (as showed in the graphical design). On the other hand, on the page where an individual product is displayed, the max width of the product view is smaller, so the max width of header and footer should be smaller too.
