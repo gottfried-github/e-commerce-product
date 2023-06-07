@@ -51,4 +51,4 @@ Products should be sorted by `date`.
 The contents of the menu should be centered, as in graphical design. But if the contents exceeds the viewport height, it should be scrollable.
 
 ## Header and footer width difference on different pages
-For example, on the page where products are displayed, the max width of the header and the footer should be larger, to corelate with the max width of the products view. On the other hand, on the page where an individual product is displayed, the max width of the product view is smaller, so the max width of header and footer should be smaller too.
+For example, on the page where products are displayed, the max width of the header and the footer should be larger, to corelate with the max width of the products view (as showed in the graphical design). On the other hand, on the page where an individual product is displayed, the max width of the product view is smaller, so the max width of header and footer should be smaller too.
