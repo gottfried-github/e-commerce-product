@@ -52,3 +52,6 @@ The contents of the menu should be centered, as in graphical design. But if the 
 
 ## Header and footer width difference on different pages
 For example, on the page where products are displayed, the max width of the header and the footer should be larger, to corelate with the max width of the products view (as showed in the graphical design). On the other hand, on the page where an individual product is displayed, the max width of the product view is smaller, so the max width of header and footer should be smaller too.
+
+## Dropdown width and positioning
+If items in the dropdown are wider than the head, then the dropdown should be aligned right. If they are narrower, then the dropdown should be aligned left and have the width of the head. This is displayed in the graphical design.
