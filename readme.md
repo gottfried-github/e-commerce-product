@@ -46,6 +46,17 @@ When one of the above characteristics is chosen to sort by first, the other char
 ### Admin
 Products should be sorted by `date`. 
 
+# Administration
+## Relation between database and files
+Each product has a set of photos, associated with it.
+
+These photos are stored in the filesystem and their locations are stored in the database.
+
+1. there should be no files on the filesystem which are not referenced from the database
+2. there should be no photo entries in the database for which there is no file on the filesystem
+3. when the user adds or removes photos, if the operation on one of the photos fails, none of the photos should be added or removed
+4. when the user removes an /item/, if either removing a photo or removing the /item/ fails, then the /item/ and all it's photos shouldn't be removed
+
 # UI design
 ## Mobile menu view
 The contents of the menu should be centered, as in graphical design. But if the contents exceeds the viewport height, it should be scrollable.
