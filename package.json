@@ -1,0 +1,15 @@
+{
+  "name": "e-commerce-spec",
+  "version": "0.1.0",
+  "description": "high-level specification for the e-commerce project",
+  "main": "readme.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "/"
+  },
+  "author": "gottfried",
+  "license": "MIT"
+}
