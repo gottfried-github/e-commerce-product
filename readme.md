@@ -55,7 +55,8 @@ These photos are stored in the filesystem and their locations are stored in the 
 1. there should be no files on the filesystem which are not referenced from the database
 2. there should be no photo entries in the database for which there is no file on the filesystem
 3. when the user adds or removes photos, if the operation on one of the photos fails, none of the photos should be added or removed
-4. when the user removes an /item/, if either removing a photo or removing the /item/ fails, then the /item/ and all it's photos shouldn't be removed
+4. when the user removes a product from the database, all photos, associated with it should be removed from the database and from the filesystem
+5. when the user removes a product, if the removal fails, no photos should be removed from either the database or filesystem
 
 # UI design
 ## Mobile menu view
